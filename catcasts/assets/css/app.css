@@ -2,3 +2,7 @@
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
+
+.alert:empty{
+  display: none;
+}
